@@ -38,7 +38,7 @@ public class Main {
         set.add(new Card("Дама", "Пики"));
         set.add(new Card("Король", "Пики"));
         set.add(new Card("Туз", "Пики"));
-        
+
         //Трефы
         set.add(new Card("6", "Трефы"));
         set.add(new Card("7", "Трефы"));
@@ -49,5 +49,14 @@ public class Main {
         set.add(new Card("Дама", "Трефы"));
         set.add(new Card("Король", "Трефы"));
         set.add(new Card("Туз", "Трефы"));
+
+        //Добавить лишние карты
+        set.add(new Card("6", "Трефы"));
+        set.add(new Card("10", "Трефы"));
+        set.add(new Card("10", "Бубны"));
+        set.add(new Card("Валет", "Бубны"));
+        set.add(new Card("8", "Черви"));
+
+        System.out.println(set.size()); //36
     }
 }
